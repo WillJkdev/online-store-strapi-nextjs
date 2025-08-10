@@ -1,4 +1,4 @@
-# 🛒 Tienda Online - E-commerce Completo
+# 🛒 Tienda Online - E-commerce Básico
 
 <p align="center">
   <img src="public/nextjs.jpeg" alt="Next.js" width="48" height="48" />
