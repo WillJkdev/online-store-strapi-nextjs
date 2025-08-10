@@ -9,7 +9,7 @@
 
 
 
-Una aplicación completa de comercio electrónico moderna construida con **Strapi** como backend y **Next.js** como frontend. Esta tienda online ofrece una experiencia de compra completa con gestión de productos, usuarios, pedidos y una interfaz moderna y responsiva.
+Una aplicación básica de comercio electrónico moderna construida con **Strapi** como backend y **Next.js** como frontend. Esta tienda online ofrece una experiencia de compra completa con gestión de productos, usuarios, pedidos y una interfaz moderna y responsiva.
 
 ## 🏗️ Arquitectura del Proyecto
 
