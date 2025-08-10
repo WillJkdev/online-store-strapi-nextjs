@@ -1,0 +1,36 @@
+query GetProducts(
+  $page: Int
+  $limit: Int
+  $categorySlug: String
+  $featured: Boolean
+) {
+  products_connection(
+    pagination: { page: $page, pageSize: $limit }
+    filters: {
+      featured: { eq: $featured }
+      category: { slug: { eq: $categorySlug } }
+    }
+  ) {
+    nodes {
+      documentId
+      name
+      slug
+      price
+      originalPrice
+      discount
+      image {
+        url
+      }
+      category {
+        name
+        slug
+      }
+    }
+    pageInfo {
+      page
+      pageSize
+      pageCount
+      total
+    }
+  }
+}

@@ -1,0 +1,16 @@
+# Evitar dependencias si se instalan fuera de las carpetas de proyecto
+node_modules/
+
+# Variables de entorno globales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales
+.DS_Store
+*.log
+
+# Evitar lockfiles que no correspondan
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
